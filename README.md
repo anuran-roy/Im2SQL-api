@@ -19,8 +19,8 @@ Supported paramters:
 3. ```table_name```: The table name to generate the commands with.
 
 4. ```include_schema```: Whether to consider schema or not:
-- **true** will imply that the data starts from second row from the table, and the first row will be omitted.
+    - **true** will imply that the data starts from second row from the table, and the first row will be omitted.
 
-- **false** will imply that the data starts from the first row.
+    - **false** will imply that the data starts from the first row.
 
 5. ```uploadfile```: The image to upload.
