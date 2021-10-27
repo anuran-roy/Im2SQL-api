@@ -1,5 +1,9 @@
 # Im2SQL - API
 
+![Image-2-SQL](https://user-images.githubusercontent.com/76481787/138583272-aa3f1f50-a56b-483f-b8ed-a51e7c4d37be.png)
+
+<!-- <center><img src="https://user-images.githubusercontent.com/76481787/138583272-aa3f1f50-a56b-483f-b8ed-a51e7c4d37be.png" style="align: center;"></center> -->
+
 ## What is it?
 
 The FastAPI-based API backend-only implementation of Im2SQL.
