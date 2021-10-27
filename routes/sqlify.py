@@ -4,6 +4,7 @@ from uuid import uuid4
 import aiofiles
 import settings
 import os
+from decouple import config
 
 router = APIRouter(prefix="/sqlify", tags=["Image2SQL"])
 
@@ -18,7 +19,7 @@ async def make_table(typecheck: bool = Form(...), columns: int = Form(...), tabl
             content = await uploadfile.read()
             await out_file.write(content)
 
-        cmds, chks = im2sql.driver("/usr/bin/tesseract", floc, columns=columns, tablename=table_name.upper(), typecheck=typecheck, includes_schema=includes_schema)
+        cmds, chks = im2sql.driver(config("TESSERACT_PATH"), floc, columns=columns, tablename=table_name.upper(), typecheck=typecheck, includes_schema=includes_schema)
 
         os.remove(floc)
 
