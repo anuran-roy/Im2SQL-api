@@ -12,7 +12,7 @@ Needs a JS-based frontend.
 
 ## End Points:
 
-### ```/sqlift/make/``` - To convert the image to SQL ```INSERT``` commands.
+### ```/sqlify/make/``` - To convert the image to SQL ```INSERT``` commands.
 
 Supported paramters:
 
