@@ -5,7 +5,7 @@ import aiofiles
 import settings
 import os
 
-router = APIRouter(prefix="/sqlify", tags=["Image2SQL"])
+router = APIRouter(prefix="/api/v1/sqlify", tags=["Image2SQL"])
 
 
 @router.post("/make", status_code=status.HTTP_201_CREATED)
