@@ -6,7 +6,7 @@
 
 ## What is it?
 
-The FastAPI-based API backend-only implementation of Im2SQL.
+The FastAPI-based API backend-only implementation of Im2SQL. Im2SQL is an app to reduce the cumbersome task of writing data entry statements manually, Im2SQL converts Table Images to SQL INSERT commands that are returned in a textbox within max 8 seconds.
 
 Needs a JS-based frontend.
 
