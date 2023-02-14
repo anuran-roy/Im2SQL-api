@@ -18,7 +18,7 @@ python-decouple==3.5
 python-multipart==0.0.5
 six==1.16.0
 sniffio==1.2.0
-starlette==0.16.0
+starlette==0.25.0
 typing-extensions==3.10.0.2
 uuid==1.30
 uvicorn==0.15.0
